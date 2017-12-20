@@ -1,0 +1,190 @@
+/*letter1------------------------------------------*/
+html,body,#wrapper1,#wrapper2
+{
+	height: 100%;
+	width: 100%;
+}
+body
+{
+	font-size: 25px;
+}
+#wrapper1
+{
+	background: url(../img/背景底图.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+#light img
+{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	width: 80%;
+	height: 35%;
+}
+#god
+{
+	background: url(../img/上帝说话.png) no-repeat;
+	background-size: 100%;
+	height: 390px;
+	width: 585px;
+	position: relative;
+	top: 50px;
+	left: 390px;
+	display: none;
+}
+#people
+{
+	background: url(../img/人.png) no-repeat;
+	background-size: 100%;
+	height: 312px;
+	width: 480px;
+	position: absolute;
+	top: 56%;
+	/*top: 850px;*/
+	right: 0px;
+	display: none;
+}
+#ruidao
+{
+	background: url(../img/小人.png) no-repeat;
+	background-size: 100%;
+	height: 458px;
+	width: 600px;
+	position: absolute;
+	bottom: 10px;
+	left: 0px;
+	display: none;
+}
+#open
+{
+	position: absolute;
+	top: 49%;
+	/*top: 750px;*/
+	right: 210px;
+	height: 64px;
+	width: 185px;
+}
+#open img
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 64px;
+	width: 185px;
+	display: none;
+}
+#texts1
+{
+	height: 34px;
+	width: 254px;
+	transform: rotate(6deg);
+	position: absolute;
+	top:45.2%;
+	/*top:695px;*/
+	left: 197px;
+}
+#texts2
+{
+	height: 33px;
+	width: 254px;
+	transform: rotate(6deg);
+	position: absolute;
+	top:47.4%;
+	/*top: 728px;*/
+	left: 191px;
+	
+}
+#texts1 p
+{
+	font-size: 25px;
+	margin: 6px 0px;
+	display: none;
+}
+#texts2 p
+{
+	font-size: 25px;
+	margin: 6px 0px;
+	display: none;
+}
+
+
+
+/*letter2----------------------------------------*/
+body
+{
+	margin: 0px;
+}
+@font-face {
+	font-family:'xindi';
+	src: url('../fonts/新蒂小丸子体.ttf');
+}
+#wrapper2
+{
+	background: url(../img/信纸.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*#blank
+{
+	height: 12.9%;
+}*/
+#content
+{
+	margin-left: 84px;
+}
+#content p
+{
+	display: none;
+	font-size: 34px;
+	font-family: "xindi";
+}
+#right
+{
+	margin-left: 234px;
+}
+#imgwrapper
+{
+	width: 342px;
+	height: 22.1%;
+	position: absolute;
+	top: 67%;
+	right: 190px;
+	transform: rotate(18deg);
+	/*border: 1px solid;*/
+	
+}
+#imgwrapper img
+{
+	width: 100%;
+	height: 100%;
+	display: none;
+	/*position: fixed;*/
+	/*z-index: -1;*/
+	/*background: none;*/
+}
+#plus
+{
+	width: 108px;
+	height: 113px;
+	position: absolute;
+	top: 28%;
+	left: 33%;
+	/*z-index: 1;*/
+}
+#file
+{
+	display: none;
+
+}
+#div_saveimg
+{
+	background: url(../img/信纸按钮.png) no-repeat;
+	background-size:100% ;
+	position: absolute;
+	bottom: 22%;
+	left: 10%;
+	height: 97px;
+	width: 254px;
+	display: none;
+	
+}
+
