@@ -150,7 +150,12 @@ function saveimg()
 	            "width": iwidth+"px",
 	            "height": iheight+"px",
 	        })
+	        alert("生成图片成功，长按可保存");
 	    })
 	
 	
 }
+
+
+	
+
